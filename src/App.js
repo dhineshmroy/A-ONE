@@ -27,7 +27,7 @@ import './assets/vendor/slick/slick.css';
 
 function App() {
   return (
-    <Router>
+    <Router  basename="/A-ONE">
         <Routes>
             <Route path="/" exact element={<Home />} />
             <Route path="/about" exact  element={<About />} />
